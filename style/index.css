@@ -1,0 +1,79 @@
+.btn-lift {
+    transition: transform 0.3s;
+  }
+  .btn-lift:hover {
+    transform: translateY(-15px);
+  }
+  .background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    filter: brightness(50%);
+  }
+ 
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .card-custom {
+    background-color: rgba(3, 4, 94, 0.8);
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    min-height: 300px;
+  }
+  .accordion-button {
+    color: white;
+    background-color: rgba(3, 4, 94, 0.8);
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .accordion-button:not(.collapsed) {
+    color: white;
+    background-color: rgba(3, 4, 94, 0.9);
+  }
+  .accordion-body {
+    color: white;
+    background-color: rgba(3, 4, 94, 0.7);
+  }
+  .form-section {
+    background-color: rgba(3, 4, 94, 0.8);
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .form-control {
+    background-color: rgba(3, 4, 94, 0.6);
+    color: white;
+    border: none;
+  }
+  .form-control:focus {
+    background-color: rgba(3, 4, 94, 0.8);
+    color: white;
+    border: none;
+    box-shadow: none;
+  }
+  .btn-primary {
+    background-color: #00B4D8;
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: #0077B6;
+  }
+
+  .carousel-item img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do carousel */
+    max-height: 600px; /* Define uma altura máxima para as imagens */
+    width: auto; /* Permite que a largura se ajuste automaticamente */
+    height: auto; /* Permite que a altura se ajuste automaticamente */
+}

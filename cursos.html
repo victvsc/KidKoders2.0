@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KidKoders</title>
+    <link rel="icon" type="image/x-icon" href="./components/images/logokid.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./components/fonts/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/cursos.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/grid.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+        <style>
+            .navbar-custom {
+                background-color: #03045e;
+                font-family: "Space Mono", monospace;
+                font-size: 21px;
+                
+            }
+            .btn-lift {
+                transition: transform 0.3s;
+            }
+            .btn-lift:hover {
+                 transform: translateY(-15px);
+            }
+
+    </style>
+    <body>
+        
+            <video autoplay muted loop class="background-video">
+                <source src="./components/videos/mylivewallpapers-com-Sonic-the-Hedgehog-4K.mp4" type="video/mp4">
+            </video>
+ 
+            <nav class="navbar navbar-expand-lg navbar-custom">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html"><img src="./components/images/Modern Creative Technology Logo (1).png" alt="Logo"></a>
+                    <!-- Botão de menu (hamburger) -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./cursos.html">Cursos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./planos.html"><button style="width: 150%;"  type="button" class="btn btn-outline-info">Planos</button></a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                            <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        
+        <div class="container">
+            <h1 class="text-center mb-4">
+                <span class="animated-text">Nossos Cursos</span>
+            </h1>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/20/80/ce/2080cebc8d354ffd5e22f1178e4fbb7d.jpg" class="card-img-top" alt="Curso 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvimento de Jogos com Python</h5>
+                            <p class="card-text"></p>
+                            <button type="button" class="btn btn-outline-info" onclick="location.href='Pages/cursoPython.html'">Matricular-se</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/6d/96/69/6d966996c332777b1675e0fbb113203a.jpg" class="card-img-top" alt="Curso 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvimento de Jogos com Roblox</h5>
+                            <p class="card-text"></p>
+                            <button type="button" class="btn btn-outline-info" onclick="location.href='Pages/cursoRoblox.html'">Matricular-se</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/d7/5a/f0/d75af087f17e7b5d3e40d01be3ecfa49.jpg" class="card-img-top" alt="Curso 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvimento de Jogos em C#</h5>
+                            <p class="card-text"></p>
+                            <button type="button" class="btn btn-outline-info" onclick="location.href='Pages/cursoC1.html'">Matricular-se</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/3e/e1/c8/3ee1c8dbe1cd4c753d21ec791cd70151.jpg" class="card-img-top" alt="Curso 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvendo um Banco de dados com MySQL</h5>
+                            <p class="card-text"></p>
+                            <button type="button" class="btn btn-outline-info" onclick="location.href='Pages/cursoMysql.html'">Matricular-se</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/b4/17/5e/b4175e7695742a93e3c2d858038f0559.jpg" class="card-img-top" alt="Curso 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvimento Web utilizando NodeJS</h5>
+                            <p class="card-text"></p>
+                            <button type="button" class="btn btn-outline-info" onclick="location.href='Pages/cursoNodejs.html'">Matricular-se</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/61/47/fa/6147fa15886ad21be17aa79f603cbb5c.jpg" class="card-img-top" alt="Curso 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvimento de aplicativos em C++</h5>
+                            <p class="card-text"></p>
+                            <button type="button" class="btn btn-outline-info" onclick="location.href='Pages/cursoC++.html'">Matricular-se</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/c5/23/75/c523755820d0b913d15a8fae407de1b1.jpg" class="card-img-top" alt="Curso 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvimento de Jogos em Java</h5>
+                            <p class="card-text"></p>
+                            <button type="button" class="btn btn-outline-info" onclick="location.href='Pages/cursoJava.html'">Matricular-se</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/f1/66/12/f166123950d8cbcf6861274e32a19438.jpg" class="card-img-top" alt="Curso 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvendo Jogos com Android</h5>
+                            <p class="card-text"></p>
+                            <button type="button" class="btn btn-outline-info" onclick="location.href='Pages/cursoAndroid.html'">Matricular-se</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/49/f6/70/49f67019bd124dae6db0aba5aa23f85a.jpg" class="card-img-top" alt="Curso 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvimento de Sites com HTML e CSS</h5>
+                            <p class="card-text"></p>
+                            <button type="button" class="btn btn-outline-info" onclick="location.href='Pages/cursoHtmlCss.html'">Matricular-se</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/53/e9/2f/53e92f34ab6db823def56f3978e7c17f.jpg" class="card-img-top" alt="Curso 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Lógica de Programação em C</h5>
+                            <p class="card-text"></p>
+                            <button type="button" class="btn btn-outline-info" onclick="location.href='Pages/cursoC.html'">Matricular-se</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/9f/85/b2/9f85b217e737448eb0dd88afc0f839dc.jpg" class="card-img-top" alt="Curso 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvimento Web BackEnd</h5>
+                            <p class="card-text"></p>
+                            <button type="button" class="btn btn-outline-info" onclick="location.href='Pages/cursoBackEnd.html'">Matricular-se</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/92/55/15/925515bc465b703cd49855eea874d98a.jpg" class="card-img-top" alt="Curso 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Aprendendo sobre GIT e GitHub</h5>
+                            <p class="card-text"></p>
+                            <button type="button" class="btn btn-outline-info" onclick="location.href='Pages/cursoGitGitHub.html'">Matricular-se</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container text-center">
+                <span class="text-muted">© 2024 KidKoders. Todos os direitos reservados.</span>
+            </div>
+        </footer>
+        
+        <script>
+            // Função para adicionar classe aos cards quando visíveis na tela
+            function animateOnScroll() {
+                var cards = document.querySelectorAll('.card');
+                cards.forEach(function(card) {
+                    if (isVisible(card)) {
+                        card.classList.add('animated');
+                    }
+                });
+            }
+    
+            // Função para verificar se um elemento é visível na tela
+            function isVisible(element) {
+                var rect = element.getBoundingClientRect();
+                var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+                return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+            }
+    
+            // Evento de scroll para ativar animações
+            document.addEventListener('scroll', animateOnScroll);
+            // Ativar animações ao carregar a página inicialmente
+            animateOnScroll();
+        </script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+        <div class="overlay"></div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    </body>
+    </html>

@@ -1,0 +1,74 @@
+.container {
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.feature {
+    width: 30%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.feature h3 {
+    color: #343a40;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.feature p {
+    font-size: 1rem;
+    color: #666;
+}
+.carousel-inner {
+    border-radius: 10px;
+}
+.carousel-item {
+    text-align: center;
+}
+.carousel-caption {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+.carousel-caption h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.carousel-caption p {
+    color: #fff;
+    font-size: 1.1rem;
+}
+.cta {
+    margin-top: 30px;
+}
+.cta a {
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
