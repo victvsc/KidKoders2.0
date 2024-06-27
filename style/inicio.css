@@ -4,7 +4,7 @@
     background-color: transparent;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
     text-align: center;
 }
 h1 {
@@ -28,7 +28,7 @@ p {
     padding: 20px;
     background-color: #f1f1f1;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 .feature h3 {
     color: #343a40;
@@ -49,7 +49,7 @@ p {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .carousel-caption h3 {
     color: #ffffff;
@@ -72,3 +72,26 @@ p {
     font-size: 1.2rem;
     border-radius: 5px;
 }
+
+      /* Ocultar os textos "Próximo" e "Anterior" */
+      .carousel-control-prev .sr-only,
+      .carousel-control-next .sr-only {
+          display: none;
+      }
+      
+       /* Estilo para as setas de navegação */
+       .carousel-control-prev-icon,
+       .carousel-control-next-icon {
+           background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+           border-radius: 50%; /* Deixa as setas circulares */
+           padding: 10px; /* Espaçamento interno */
+       }
+
+       /* Efeito de animação ao passar o mouse */
+       .carousel-control-prev:hover .carousel-control-prev-icon,
+       .carousel-control-next:hover .carousel-control-next-icon {
+           transform: translateY(-10px); /* Move a seta 10px para cima */
+           background-color: rgba(0, 0, 0, 0.7); /* Muda a cor de fundo */
+           transition: transform 0.3s ease, background-color 0.3s ease; /* Animação suave */
+       }
+       

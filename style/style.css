@@ -275,12 +275,36 @@ footer.footer {
 .animated-text {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
-    color: #61dafb;
+    color: #ffffff;
     border-right: 3px solid #61dafb;
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    animation: typing 4s steps(40, end), blink .75s step-end infinite;
+    position: relative; /* Necessário para o efeito de marca-texto */
+    animation: typing 4s steps(40, end) forwards; /* Adiciona forwards para manter o estado final */
+}
+
+.animated-text::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1.2em;
+    background: #0055ff;
+    z-index: -1;
+    transform: translateY(-50%);
+    padding: 0 5px;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: #61dafb; }
 }
 
 @media (max-width: 767px) {

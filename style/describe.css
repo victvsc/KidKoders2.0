@@ -53,17 +53,7 @@
     margin-top: 20px;
     font-family: "Josefin Sans", sans-serif;
 }
-.form-control {
-    background-color: rgba(3, 4, 94, 0.6);
-    color: white;
-    border: none;
-}
-.form-control:focus {
-    background-color: rgba(3, 4, 94, 0.8);
-    color: white;
-    border: none;
-    box-shadow: none;
-}
+
 .btn-primary {
     background-color: #00B4D8;
     border: none;
